@@ -1,0 +1,27 @@
+name: smilemeter
+description: A Flutter project to measure smiles.
+publish_to: 'none' 
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.0.0
+  cloud_firestore: ^4.0.0
+  audioplayers: ^4.0.0
+  fl_chart: ^0.45.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/sounds/vote.mp3
+  
